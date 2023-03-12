@@ -8,12 +8,12 @@ This repository shows how to configure link:https://github.com/features/actions[
 
 There are two modes for packaging this application: classpath & modulepath.
 
-**classpath**
+*classpath*
 
  1. `./mvnw verify`
  2. `jreleaser assemble`
 
-** modulepath**
+*modulepath*
 
  1. `./mvnw verify`
  2. `jreleaser assemble --config-file jreleaser-modules.yml`
